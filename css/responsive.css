@@ -1,11 +1,42 @@
 @media(max-width:991px){
     /* custom css  */
+    section{
+        padding: 30px 0px;
+    }
+
+    h2{
+        font-size:30px;
+        line-height: 40px;
+    }
+
+    h3{
+        font-size: 20px;
+
+
+    }
+    .banner_wrapper img{
+        height: 85vh;
+        position: relative;
+        top: 90px;
+
+        margin-bottom: 20%;
+    
+    }
+    
     
 
     /* navbar  */
 
 
     /* banner wrapper  */
+    .banner_wrapper img{
+        height: 85vh;
+        position: relative;
+        top: 90px;
+
+        margin-bottom: 20%;
+    
+    }
 
 
     /* about  */
@@ -18,6 +49,20 @@
 
 @media(max-width:767px){
     /* custom css  */
+    h1{
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    h2{
+        font-size:25px;
+    }
+
+    p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
     
     /* navbar  */
 
