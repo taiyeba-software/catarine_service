@@ -13,9 +13,9 @@
     <!-- fontawsome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
-  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75"> 
+  <body> 
     <!-- navbar section start  -->
-     <header class="header_wrapper">
+     <header class="header_wrapper" id="id="navbar-spy"">
       <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">
@@ -51,8 +51,9 @@
       </nav>
      </header>
     <!-- navbar section end  -->
+<section  data-bs-spy="scroll" data-bs-target="#navbar-spy" data-bs-offset="0" class="scrollspy-example">
     <!-- BANNER SECTION START  -->
-    <section id="home" class="banner_wrapper">
+    <main id="home" class="banner_wrapper">
       <div class="container">
         <div class="row align-item-center">
           <div class="col-lg-5 text-center text-lg-start order-lg-1 order-2">
@@ -93,15 +94,100 @@
 
         </div>
       </div>
-    </section>
-     
+    </main>
     <!-- BANNER SECTION END  -->
 
     <!-- ABOUT SECTION START  -->
 
+    <section id="about" class="about_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 col-lg-5 mb-2 mb-lg-0 order-lg-1 order-2">
+            <div class="card rounded-0">
+              <div class="card-body pt-2">
+                <h3>About us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum perspiciatis fugit debitis laudantium, distinctio fugiat
+                    excepturi repellendus vel ipsum </p>
+                <a href="#" class="main-btn mt-2">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-8 col-lg-7 mb-lg-0 order-lg-2 order-1">
+            <img src="images/about-img.png" alt="" class="img-fluid">
+          </div>
+
+        </div>
+      </div>
+    </section>
     <!-- ABOUT SECTION END  -->
 
     <!-- MENU SECTION START  -->
+     <section id="menu" class="menu_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-12 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <h3><span class="fst-italic">01 </span>Fresh food</h3>
+                <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo doloremque suscipit, vel</p>
+                <a href="#" class="main-btn mt-3">Learn more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-12 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <h3><span class="fst-italic">02 </span>Dinner meals</h3>
+                <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo doloremque suscipit, vel</p>
+                <a href="#" class="main-btn mt-3">Learn more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-12 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <h3><span class="fst-italic">03 </span>Classic menu</h3>
+                <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo doloremque suscipit, vel</p>
+                <a href="#" class="main-btn mt-3">Learn more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-12 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <h3><span class="fst-italic">04 </span>Chef's special</h3>
+                <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo doloremque suscipit, vel</p>
+                <a href="#" class="main-btn mt-3">Learn more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-12 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <h3><span class="fst-italic">05 </span>Pasta &pizza</h3>
+                <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo doloremque suscipit, vel</p>
+                <a href="#" class="main-btn mt-3">Learn more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-12 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <h3><span class="fst-italic">06</span>Vegan dishes</h3>
+                <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo doloremque suscipit, vel</p>
+                <a href="#" class="main-btn mt-3">Learn more</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+     </section>
 
     <!-- MENU SECTION END  -->
 
@@ -117,7 +203,7 @@
 
     <!-- FOOTER SECTION END  -->
 
-
+</section>
 
 </body>
 <!-- bootstrap js cdn  -->

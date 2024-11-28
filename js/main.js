@@ -16,7 +16,7 @@ window.onscroll=function(){
 
 let navmenu=document.querySelectorAll(".nav-link");
 
-let navCollapse=document.quarySelector(".navbar-collapse.collapse");
+let navCollapse=document.querySelector(".navbar-collapse.collapse");
 
 navmenu.forEach(function(a) {
     a.addEventListener("click",function() {

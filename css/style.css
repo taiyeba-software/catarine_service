@@ -44,6 +44,7 @@
 }
 
 body{
+    position: relative;
     font-family: var(--secondary-font);
     background-color: var(--bg-white);
 }
@@ -146,10 +147,13 @@ p{
     -webkit-text-fill-color: transparent;
     */
 }
+section {
+    padding: 92px 0 0 0;
+}
 
 /* ===================== navbar design ===================  */
 .header_wrapper .navbar{
-    padding: 15px 0;
+    padding: 8px 0;
     transition:all .2s linear;
 }
 
@@ -191,6 +195,9 @@ p{
 }
 
 /*===================== banner-wrapper  ===========*/
+.banner_wrapper{
+    margin-top: 30px;
+}
 
 .banner_wrapper .banner-img{
     height:auto;
@@ -210,8 +217,24 @@ p{
     height: 100%;
     object-fit:cover;
     transition: transform 500ms  ease;
-
 }
 .banner_wrapper .top-menu .card:hover img{
     transform: scale(1.1);
+}
+
+/* ========about===========  */
+
+.about_wrapper{
+    background-color: var(--bg-gray);
+    padding-bottom: 130px;
+}
+
+.about_wrapper .card{
+    z-index: 10;
+    right: -25%;
+    top:30%;
+}
+
+.about_wrapper img{
+    width: 90%;
 }

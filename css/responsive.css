@@ -71,6 +71,12 @@
     }
   
     /* about  */
+    .about_wrapper .card{
+        margin-top: 2%;
+        z-index: 10;
+        right:unset;
+        top:unset;
+    }
 
 
     /* portfolio  */
